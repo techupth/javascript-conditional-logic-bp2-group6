@@ -14,13 +14,13 @@ return "D";
 }
 }
 ///// console.log
-let RampardGrade = calculateStudentGrade(10)
-let PalpatineGrade = calculateStudentGrade(60)
-let MaceWinduGrade = calculateStudentGrade(70)
-let CodyGrade = calculateStudentGrade(80)
-let RexGrade = calculateStudentGrade (100)
-console.log(`Rampard Grade is ${RampardGrade}`)
-console.log(`Palpatine Grade is ${PalpatineGrade}`)
-console.log(`Mace Windu Grade is ${MaceWinduGrade}`)
-console.log(`Commander Cody Grade is ${CodyGrade}`)
-console.log(`Captain Rex Grade is ${RexGrade}`)
+let johnGrade = calculateStudentGrade(30);
+let lisaGrade = calculateStudentGrade(73);
+let janeGrade = calculateStudentGrade(80);
+let jjGrade = calculateStudentGrade(60);
+let alexGrade = calculateStudentGrade(90);
+console.log(`john grade is ${johnGrade}`); //'John grade is F'
+console.log(`Lisa grade is ${lisaGrade}`); //'Lisa grade is C'
+console.log(`Jane grade is ${janeGrade}`); //'Jane grade is B'
+console.log(`JJ grade is ${jjGrade}`); //'JJ grade is D'
+console.log(`Alex grade is ${alexGrade}`); //'Alex grade is A'
