@@ -3,16 +3,17 @@
 let lightBulbStatus = "On";
 
 //Start coding here
-switch (lightBulbStatus){
-    case "On":
-    console.log("Light bulb is On.")
-    break;
-    case "Off":
-    console.log("Light bulb is Off.")
-    break;
-    case "Broken":
-    console.log("Light bulb is broken")
-    break;
-    default: "Please choose the correct input (On/Off/Broken)."
+switch(lightBulbStatus){
+   case  lightBulbStatus = "On":
+console.log ("Light bulb is On.");
+    break ;   
+  case lightBulbStatus ="Off" :
+console.log("Light bulb is Off.");
+break;
+case lightBulbStatus ="broken":
+console.log("Light bulb is Broken.");
+break;
+default:
+  console.log("Please choose the correct input (On/Off/Broken)");
+  break;
 }
-console.log(lightBulbStatus)
